@@ -1,0 +1,7 @@
+avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -c -o pir.o pir.c
+
+avr-gcc -mmcu=atmega328p pir.o -o pir
+
+avr-objcopy -O ihex -R .eeprom pir pir.hex
+
+avrdude.exe -patmega328p -Pcom7 -carduino -D -U flash:w:pir.hex:i
