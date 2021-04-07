@@ -4,7 +4,7 @@ The PIR Motion Sensor is a rather simple sensor to use. It uses Infrared to dete
 
 The wiring is also quite simple. Hook up an LED to the Arduino Board like you normally would, then the sensor itself only has three pins: power, output, and ground.
 
-It may be smart to test your sensor using the provided Arduino Test Code to make sure it works. Make use of the Serial Monitor, it will give you the information you need where a 1 is motion detected and a 0 is no motion detected.
+It may be smart to test your sensor using the provided Arduino Test Code to make sure it works if you don't think the C code works. Make use of the Serial Monitor, it will give you the information you need where a 1 is motion detected and a 0 is no motion detected.
 
 The avr-gcc compile lines for the C code have also been provided for convenience.
 
