@@ -9,7 +9,7 @@ It may be smart to test your sensor using the provided Arduino Test Code to make
 The avr-gcc compile lines for the C code have also been provided for convenience.
 
 The pins used:
-PIR Motion Sensor - 7
+Motion Sensor - 7
 LED - 13
 
 Important things to keep in mind: 
